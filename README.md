@@ -52,7 +52,7 @@
 ### UML类图
 
 词频统计类：
-![image](https://user-images.githubusercontent.com/95005094/233598716-38c24cbb-2360-4430-9f84-6e989a0d8931.png)
+![image](https://user-images.githubusercontent.com/95005094/233598919-e28512e3-3a36-43af-9f2b-ffb61b849c33.png)
 
 
 > TextEditor类包含五个属性，分别是用于储存输入文本名与输出文本名的fileName与outputName，逐行读入时用到的temp值line，存储处理后的每行文本的text以及最终存放字词及词频的map。
