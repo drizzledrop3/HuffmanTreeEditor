@@ -1,0 +1,9 @@
+I:  input characters.
+D:  delete a character.
+F:  move forward a character.
+B:  move backward a character.
+J:  jump to the start.
+E:  jump to the end.
+WF: move forward a word.
+WB: move backward a word.
+Q:  quit.

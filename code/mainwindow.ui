@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="font">
+       <font>
+        <family>等线</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文本(F)</string>
+    </property>
+    <addaction name="newAction"/>
+    <addaction name="openAction"/>
+    <addaction name="saveAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_W">
+    <property name="title">
+     <string>词频(W)</string>
+    </property>
+    <addaction name="countAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>哈夫曼编码(C)</string>
+    </property>
+    <addaction name="encodeAction"/>
+    <addaction name="inputAction"/>
+    <addaction name="DecodeAction"/>
+    <addaction name="treeAction_2"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_W"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="newAction">
+   <property name="text">
+    <string>新建(N)</string>
+   </property>
+  </action>
+  <action name="openAction">
+   <property name="text">
+    <string>打开(O)</string>
+   </property>
+  </action>
+  <action name="saveAction">
+   <property name="text">
+    <string>另存为(S)</string>
+   </property>
+  </action>
+  <action name="countAction">
+   <property name="text">
+    <string>统计并导出(C)</string>
+   </property>
+  </action>
+  <action name="treeAction">
+   <property name="text">
+    <string>哈夫曼树输出(T)</string>
+   </property>
+  </action>
+  <action name="encodeAction">
+   <property name="text">
+    <string>新建哈夫曼编码(E)</string>
+   </property>
+  </action>
+  <action name="inputAction">
+   <property name="text">
+    <string>导入哈夫曼编码(I)</string>
+   </property>
+  </action>
+  <action name="DecodeAction">
+   <property name="text">
+    <string>哈夫曼解码(D)</string>
+   </property>
+  </action>
+  <action name="treeAction_2">
+   <property name="text">
+    <string>哈夫曼树输出(T)</string>
+   </property>
+  </action>
+  <action name="helpAction">
+   <property name="text">
+    <string>使用指南(H)</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
